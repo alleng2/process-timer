@@ -9,21 +9,10 @@ function Content() {
     setCounter(counter + 1);
   };
 
-  const handleReset = () => {
-    setCounter(0);
-  };
-
   return (
     <div>
-      <p>
-        Counter: {counter}
-      </p>
-      <p>
-        <button onClick={handleButtonClick}>Increment Counter</button>
-      </p>
-      <p>
-        <button onClick={handleReset}>Reset Counter</button>
-      </p>
+      <p>Counter: {counter}</p>
+      <button onClick={handleButtonClick}>Increment Counter</button>
     </div>
   );
 }
