@@ -13,7 +13,7 @@ function App() {
         <p>
           Hello world from {firstName} and {secondName}!
         </p>
-        < Content/ >
+        <Content/>
         <p>
           <text>
             Authors:{"\n"}
