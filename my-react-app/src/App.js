@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Content from './Content.js';
 
 function App() {
   const firstName = "Allen"
@@ -12,14 +13,7 @@ function App() {
         <p>
           Hello world from {firstName} and {secondName}!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        < Content/ >
         <p>
           <text>
             Authors:{"\n"}
